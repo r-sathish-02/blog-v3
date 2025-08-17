@@ -1,0 +1,28 @@
+.post-container{
+    padding: 10vh 10vw;
+}
+.posts{
+    background-color: aliceblue;
+    padding: 3vw;
+    margin: 2vh 0;
+    border-radius: 8px;
+}
+.posts p{
+    font-size: 1.3rem;
+}
+.posts h2{
+    display: inline;
+}
+.posts h3{
+    display: inline;
+}
+.spinner-load{
+    display: flex;
+    justify-content: center;
+    margin: 40vh 0;
+}
+@media  screen and (max-width:576px) {
+    .post-container{
+        padding: 2vh 5vw;
+    }
+}

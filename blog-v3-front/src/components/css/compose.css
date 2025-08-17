@@ -1,0 +1,38 @@
+.compose-form{
+    border: 1px solid;
+    width: 50vw;
+    min-height: 60vh;    margin: 0 auto;
+    padding: 1vw;
+    text-align: center;
+}
+.compose-form input{
+    width: 45vw;
+    height: 5vh;
+    font-size: 1rem;
+}
+label{
+    display: flex;
+    justify-content: flex-start;
+    margin: 2vh 1vh;
+}
+
+.base-container{
+    margin: 0 20px;
+}
+.compose-form button{
+    width: 10vw;
+}
+@media screen and (max-width:576px) {
+    .compose-form {
+        width: 80vw;
+    }
+    .compose-form input{
+        width: 70vw;
+    }
+    .compose-form textarea{
+        width:70vw ;
+    }
+    .compose-form button{
+        width: 40vw;
+    }
+}

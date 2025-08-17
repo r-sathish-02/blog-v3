@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #CCD5AE;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(67, 104, 80);
+    padding: 3vh;
+    align-items: center;
+}
+
+.headername {
+    color: white;
+    font-family: "Grey Qo", sans-serif;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.nav-comp {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-element {
+    text-align: right;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    margin: 0 1.8vw;
+    color: grey;
+    font-family: "Montserrat", sans-serif;
+}
+
+.nav-element:hover {
+    color: white;
+}
+
+.navbar-username {
+    color: aliceblue;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-pic {
+    margin: 0 10px;
+    width: 2vw;
+    border-radius: 50%;
+}
+
+.logout-btn {
+    height: 5vh;
+}
+
+.toggle-button {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.toggle-button div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+}
+
+@media (max-width: 576px) {
+    .nav-comp {
+        display: none;
+        flex-direction: column;
+        background-color: rgb(67, 104, 80);
+        width: 100%;
+    }
+
+    .nav-comp.active {
+        position: absolute;
+        display: flex;
+        top: 10vh;
+        text-align: center;
+        z-index: 2;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .nav-element {
+        text-align: center;
+        margin: 20px 0;
+    }
+    .login{
+        display: flex;
+        flex-direction: column;
+    }
+    .profile-pic {
+        margin: 0 10px;
+        width: 7vw;
+        border-radius: 50%;
+    }
+}

@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+    color: #921A40;
+    font-size: 2.5rem;
+    font-family: "Bebas Neue",sans-serif;
+}
+p{
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-size: 1.7rem;
+}
+.content-box{
+    margin: 10vh 2vw;
+}
+@media screen and (max-width:576px) {
+    .content-box{
+        margin: 5vh 7vw;
+    }
+}
